@@ -1,0 +1,3 @@
+kurulum
+config.php Mysql bilgilerini girip site adresiniz/ admin ile admin panele erişebilirsiniz
+admin bilgileri demo@botcuyuz.com demo şeklindedir.

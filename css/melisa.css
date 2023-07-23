@@ -1,0 +1,162 @@
+.psikopatcoder header{
+	width: 100%;
+	padding: 1% 5%;
+	border-bottom: 0.7px solid #dbdbdb;
+	position: fixed;
+	background: #fff;
+	top: 0px;
+}
+.psikopatcoder header img{
+	width: 15%;
+	display: block;
+}
+.psikopatcoder content{
+	display: block;
+	width: 70%;
+	margin: auto;
+	box-shadow: 2px 4px 20px rgba(34,90,89,0.2);
+	text-align: center;
+	padding: 3%;
+	margin-top: 10%;
+	padding-bottom: 10%;
+}
+.psikopatcoder content h1{
+	color: black;
+}
+.psikopatcoder content img{
+	width: 50%;
+}
+.psikopatcoder content p{
+	color: #aeafb3;
+	display: block;
+	margin-top: 5%;
+}
+.psikopatcoder content input[type="submit"]{
+	background: #fe385f;
+	border: 1px solid #fe385f;
+	border-radius: 5px;
+	color: #fff;
+	padding: 1% 13%;
+	margin-top: 3%;
+}
+.psikopatcoder footer{
+	background: #000;
+	width: 100%;
+	display: block;
+	padding: 5%;
+	padding-bottom: 0px;
+	margin-top: 8%;
+}
+.melisa-footer-left{
+	display: inline-block;
+	width: 20%;
+}
+.melisa-footer-left img{
+	width: 100%;
+}
+.melisa-footer-right{
+	display: inline-block;
+	width: 79%;
+	float: right;
+}
+.melisa-footer-right ul{
+	width: 25%;
+	display: inline-block;
+	list-style: none;
+	float: right;
+	padding: 0px;
+}
+.melisa-footer-right ul h1{
+	font-size: 1.1em;
+	color: #fff;
+}
+.melisa-footer-right ul a{
+	font-size: 0.9em;
+	color: #aeafb3;
+	text-decoration: none;
+}
+.melisa-footer-bottom{
+	width: 100%;
+	display: inline-block;
+	padding: 5% 0px;
+}
+.melisa-footer-bottom span{
+	float: right;
+	color: #aeafb3;
+	font-weight: 500;
+}
+.melisa-footer-bottom select{
+	color: #fff;
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	padding: 3px 5px;
+}
+.melisa-footer-bottom option{
+	color: black;
+}
+.psikopatcoder form input{
+	display: block;
+	width: 60%;
+	margin: auto;
+	padding: 3px 2%;
+	margin-top: 2%;
+	border: 0.6px solid #dbdbdb;
+	outline: none;
+	border-radius: 3px;
+	transition: 1s;
+}
+.psikopatcoder form input:focus{
+	border-bottom: 1px solid #fe385f;
+}
+::-webkit-scrollbar{
+	width: 5px;
+	background: #000;
+}
+::-webkit-scrollbar-thumb{
+	background: #fe385f;
+	height: 25%;
+	border-radius: 5px;
+}
+#sadcoder{
+	width: 50%;
+	display: block;
+	margin: auto;
+	margin-top: 15%;
+}
+@media screen and (max-width: 1000px){
+	.psikopatcoder header img{
+		width: 40%;
+	}
+	.psikopatcoder content{
+		width: 90%;
+		margin-top: 20%;
+	}
+	.psikopatcoder content img{
+		width: 60%;
+	}
+	.melisa-footer-left{
+    	display: block;
+    	width: 40%;
+	}
+	.melisa-footer-right{
+		width: 100%;
+		margin-top: 10%;
+	}
+	.melisa-footer-right ul{
+		width: 100%;
+		float: none;
+	}
+	#gif2{
+		width: 80%;
+	}
+	.psikopatcoder form input{
+		width: 90%;
+	}
+	#sadcoder{
+		width: 90%;
+		display: block;
+		margin: auto;
+		margin-top: 50%;
+	}
+}
